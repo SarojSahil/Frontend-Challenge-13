@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/fonts/Outfit.ttf);
+}
+
+@theme {
+  --color-light-gray: #F3F4F6;
+  --color-dark-gray: #394150;
+  --color-blue: #263FA9;
+  --color-sea-green: #86E7D4;
+  --color-sky-blue: #9DC4F8;
+  --color-purple: #C1B6F8;
+  --color-pink: #EDACD2;
+  --color-wheat: #F8D8B0;
+
+  --font-outfit: "Outfit";
+}
+
+.text-heading {
+  @apply font-medium text-[2.5rem];
+}
+
+.text-label {
+  @apply font-medium text-xl;
+}
+
+.bg-decoration {
+  background-image: url(/images/Background_decor.svg);
+}
